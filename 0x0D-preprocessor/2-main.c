@@ -1,13 +1,12 @@
-#include "1-pi.h"
 #include <stdio.h>
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
 
+/**
+ * main - Name of the file
+ *
+ * Return: 0 if succes
+ */
 int main(void)
 {
-	printf("%s\n",__FILE__);
+	printf("%s\n", (__FILE__));
 	return (0);
 }
